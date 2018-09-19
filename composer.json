@@ -1,0 +1,25 @@
+{
+    "require": {
+        "illuminate/database": "^5.3",
+        "illuminate/console": "^5.3",
+        "symfony/process": "^3.1",
+        "illuminate/filesystem": "^5.3",
+        "nategood/commando": "^0.2.8",
+        "monolog/monolog": "^1.21",
+        "dimabdc/php-fast-simple-html-dom-parser": "^1.1",
+        "embedly/embedly-php": "^0.5.5",
+        "simplepie/simplepie": "^1.4",
+        "vojant/twitter-php" : "dev-master",
+        "facebook/graph-sdk": "^5.5"
+    },
+    "autoload" : {
+      "classmap" : [
+        "models",
+        "tascbot",
+        "tascbot/api",
+        "tascbot/parsers",
+        "tascbot/modules",
+        "tascbot/handlers"
+      ]
+    }
+}
